@@ -7,7 +7,7 @@ public class OrganizadorEventos {
 		Scanner op = new Scanner(System.in);
 
 		while (true) {
-			System.out.println("1. Criar Evento\n2. Cadastrar Palestra\n3. Cadastrar Participante\n4. Sair");
+			System.out.println("1. Criar Evento\n2. Cadastrar Palestra\n3. Cadastrar Participante\n4. Grava arquivo\n5. Sair");
 			switch (op.nextInt()) {
 			case 1:
 				LeArquivo arquivo = new LeArquivo();
@@ -18,8 +18,10 @@ public class OrganizadorEventos {
 			case 3:
 
 				break;
-
 			case 4:
+				MostraArquivo mostra = new MostraArquivo();
+				break;
+			case 5:
 
 				System.exit(0);
 
