@@ -14,7 +14,6 @@ public class OrganizadorEventos {
                     LeArquivo arquivo = new LeArquivo();
                     break;
                 case 2:
-                    System.out.println("Teste");
 
                     break;
                 case 3:
