@@ -1,24 +1,24 @@
 
 public class CriaEvento {
-	String data, titulo, resumo;
-	CadastraPalestra palestra = new CadastraPalestra(titulo, resumo);
 
-	public CriaEvento(String data, CadastraPalestra palestra) {
-		this.data = data;
-		this.palestra = palestra;
-	}
+    String data, titulo, resumo;
+    CadastraPalestra palestra = new CadastraPalestra(titulo, resumo);
 
-	public String getData() {
-		return data;
-	}
+    public CriaEvento(String data, CadastraPalestra palestra) {
+        this.data = data;
+        this.palestra = palestra;
+    }
 
-	public void setData(String data) {
-		this.data = data;
-	}
+    public String getData() {
+        return data;
+    }
 
-	public String toString() {
-		return "Dados do Evento: \nData = " + data + "\n " + palestra;
-	}
-		
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public String toString() {
+        return "Dados do Evento: \nData = " + data + "\n " + palestra;
+    }
 
 }

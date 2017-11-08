@@ -1,25 +1,26 @@
 
 public class Participante {
-	private String nome, email;
 
-	public String getNome() {
-		return nome;
-	}
+    private String nome, email;
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public String getNome() {
+        return nome;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public String getEmail() {
+        return email;
+    }
 
-	public String toString() {
-		return "Nome = [" + nome + "], Email = [" + email + "]";
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String toString() {
+        return "Nome = [" + nome + "], Email = [" + email + "]";
+    }
 
 }

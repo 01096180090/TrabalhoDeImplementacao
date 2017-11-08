@@ -1,30 +1,31 @@
 
 public class CadastraPalestra {
-	String titulo, resumo;
 
-	public CadastraPalestra(String titulo, String resumo) {
-		this.titulo = titulo;
-		this.resumo = resumo;
-	}
+    String titulo, resumo;
 
-	public String getTitulo() {
-		return titulo;
-	}
+    public CadastraPalestra(String titulo, String resumo) {
+        this.titulo = titulo;
+        this.resumo = resumo;
+    }
 
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
+    public String getTitulo() {
+        return titulo;
+    }
 
-	public String getResumo() {
-		return resumo;
-	}
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 
-	public void setResumo(String resumo) {
-		this.resumo = resumo;
-	}
+    public String getResumo() {
+        return resumo;
+    }
 
-	public String toString() {
-		return "Titulo = " + titulo + "\nResumo = " + resumo;
-	}
+    public void setResumo(String resumo) {
+        this.resumo = resumo;
+    }
+
+    public String toString() {
+        return "Titulo = " + titulo + "\nResumo = " + resumo;
+    }
 
 }
