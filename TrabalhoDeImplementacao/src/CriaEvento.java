@@ -5,8 +5,8 @@ public class CriaEvento {
 
     Scanner teclado = new Scanner(System.in);
 
-    String data, titulo, resumo;
-    CadastraPalestra palestra;
+    private String data, titulo, resumo;
+    private CadastraPalestra palestra;
 
     public CriaEvento() {
         System.out.println("Digite a data do Evento: ");

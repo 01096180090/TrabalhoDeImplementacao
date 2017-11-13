@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Palestrante {
 
     private String nome, email, curriculo;
-    int telefone;
+    private int telefone;
 
     public String getCurriculo() {
         return curriculo;

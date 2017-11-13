@@ -1,7 +1,7 @@
 
 public class CadastraPalestra {
 
-    String titulo, resumo;
+    private String titulo, resumo;
 
     public CadastraPalestra(String titulo, String resumo) {
         this.titulo = titulo;
