@@ -1,12 +1,21 @@
 
+import java.util.*;
+
 public class CriaEvento {
 
-    String data, titulo, resumo;
-    CadastraPalestra palestra = new CadastraPalestra(titulo, resumo);
+    Scanner teclado = new Scanner(System.in);
 
-    public CriaEvento(String data, CadastraPalestra palestra) {
-        this.data = data;
-        this.palestra = palestra;
+    String data, titulo, resumo;
+    CadastraPalestra palestra;
+
+    public CriaEvento() {
+        System.out.println("Digite a data do Evento: ");
+        data = teclado.nextLine();
+        System.out.println("Digite o título da Palestra: ");
+        titulo = teclado.nextLine();
+        System.out.println("Digite um resumo da Palestra: ");
+        resumo = teclado.nextLine();
+        palestra = new CadastraPalestra(titulo, resumo);
     }
 
     public String getData() {
@@ -18,7 +27,7 @@ public class CriaEvento {
     }
 
     public String toString() {
-        return "Dados do Evento: \nData = " + data + "\n " + palestra;
+        return "Dados do Evento: \nData = " + data + "\n" + palestra;
     }
 
 }

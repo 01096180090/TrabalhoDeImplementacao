@@ -23,8 +23,8 @@ public class OrganizadorEventos {
 
                     break;
                 case 4:
-                    System.out.println("Digite o texto para gravar no arquivo: ");
                     GravaArquivo mostra = new GravaArquivo();
+                    System.out.println("Digite o texto para gravar no arquivo: ");
                     String texto = teclado.nextLine();
                     mostra.mostraArq(texto);
                     break;

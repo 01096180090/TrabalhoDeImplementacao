@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class LeArquivo {
 
-    File arquivo = new File("C:\\Users\\mcamargo\\Downloads\\Aps02 Algoritmos e Programação\\participantes.csv");
+    File arquivo = new File("C:\\Users\\mcamargo\\Downloads\\Aps02 Algoritmos e Programação\\Participantes.txt");
     Participante pessoa[] = new Participante[10];
 
     {
