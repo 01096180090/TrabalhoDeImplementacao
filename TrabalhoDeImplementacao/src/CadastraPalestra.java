@@ -12,16 +12,8 @@ public class CadastraPalestra {
         return titulo;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
     public String getResumo() {
         return resumo;
-    }
-
-    public void setResumo(String resumo) {
-        this.resumo = resumo;
     }
 
     public String toString() {

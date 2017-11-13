@@ -22,10 +22,6 @@ public class CriaEvento {
         return data;
     }
 
-    public void setData(String data) {
-        this.data = data;
-    }
-
     public String toString() {
         return "Dados do Evento: \nData = " + data + "\n" + palestra;
     }
