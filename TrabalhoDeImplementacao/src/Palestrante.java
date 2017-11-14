@@ -3,9 +3,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Palestrante {
+public class Palestrante extends Pessoa {
 
-    private String nome, email, curriculo;
+    private String email, curriculo;
     private int telefone;
 
     public String getCurriculo() {
@@ -22,14 +22,6 @@ public class Palestrante {
 
     public void setTelefone(int telefone) {
         this.telefone = telefone;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getEmail() {
